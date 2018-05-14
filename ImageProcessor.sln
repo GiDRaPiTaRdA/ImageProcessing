@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessing", "ImageProcessor\ImageProcessing.csproj", "{5E12B2D2-5C82-49BB-8CBC-3CF4D2ED36AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E12B2D2-5C82-49BB-8CBC-3CF4D2ED36AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E12B2D2-5C82-49BB-8CBC-3CF4D2ED36AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E12B2D2-5C82-49BB-8CBC-3CF4D2ED36AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E12B2D2-5C82-49BB-8CBC-3CF4D2ED36AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49BA7863-AB7E-4146-A177-8ADF773B1177}
+	EndGlobalSection
+EndGlobal

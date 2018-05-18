@@ -13,14 +13,14 @@
             this.Y = y;
         }
 
-        public Resolution GetResolution(Resolution ratioTarget) => GetResolution(this, ratioTarget);
+        public Resolution FitMax(Resolution ratioTarget) => FitMax(this, ratioTarget);
 
-        public Resolution GetResolution(float ratio) => GetResolution(this, ratio);
+        public Resolution FitMax(float ratio) => FitMax(this, ratio);
 
-        public static Resolution GetResolution(Resolution ratioSource, Resolution ratioTarget) =>
-            GetResolution(ratioTarget, ratioSource.AspectRatio);
+        public static Resolution FitMax(Resolution ratioSource, Resolution ratioTarget) =>
+            FitMax(ratioTarget, ratioSource.AspectRatio);
 
-        public static Resolution GetResolution(Resolution ratioTarget, float aspectRatio)
+        public static Resolution FitMax(Resolution ratioTarget, float aspectRatio)
         {
             Resolution resultResolution = ratioTarget;
 
@@ -28,6 +28,26 @@
                 resultResolution = new Resolution((int)(ratioTarget.Y * aspectRatio), ratioTarget.Y);
             else if (aspectRatio < ratioTarget.AspectRatio)
                 resultResolution = new Resolution(ratioTarget.X, (int)(ratioTarget.X / aspectRatio));
+
+            return resultResolution;
+        }
+
+
+        public Resolution FitMin(Resolution ratioTarget) => FitMin(this, ratioTarget);
+
+        public Resolution FitMin(float ratio) => FitMin(this, ratio);
+
+        public static Resolution FitMin(Resolution ratioSource, Resolution ratioTarget) =>
+            FitMin(ratioTarget, ratioSource.AspectRatio);
+
+        public static Resolution FitMin(Resolution ratioTarget, float ratio)
+        {
+            Resolution resultResolution = ratioTarget;
+
+            if (ratio > ratioTarget.AspectRatio)
+                resultResolution = new Resolution(ratioTarget.X, (int)(ratioTarget.X / ratio));
+            else if (ratio < ratioTarget.AspectRatio)
+                resultResolution = new Resolution((int)(ratioTarget.Y * ratio), ratioTarget.Y);
 
             return resultResolution;
         }

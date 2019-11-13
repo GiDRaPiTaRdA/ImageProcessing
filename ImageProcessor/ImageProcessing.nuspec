@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GiDRaPiTaRdA.ImageProcessing</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>ImageProcessing Library</title>
     <authors>GiDRaPiTaRdA</authors>
     <owners>GiDRaPiTaRdA</owners>
@@ -11,11 +11,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This library is created to provide easy api to manage and process image</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2018</copyright>
+    <copyright>Copyright 2019</copyright>
     <tags>GiDRaPiTaRdA ImageProcessing gidrapitarda imageprocessing</tags>
   </metadata>
   <files>
-    <file src ="bin\Debug\ImageProcessing.dll" target="lib"/>
+    <file src ="bin\Release\ImageProcessing.dll" target="lib"/>
   </files>
 
 </package>

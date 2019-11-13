@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>GiDRaPiTaRdA.ImageProcessing</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>ImageProcessing Library</title>
     <authors>GiDRaPiTaRdA</authors>
     <owners>GiDRaPiTaRdA</owners>
     <projectUrl>https://github.com/GiDRaPiTaRdA/ImageProcessing</projectUrl>
     <iconUrl>https://secure.gravatar.com/avatar/55d0aebaf44b840a3cef92aaf76ac717?s=100&amp;r=g&amp;d=retro</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This library is created to provide easy api to manage add process image</description>
+    <description>This library is created to provide easy api to manage and process image</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>GiDRaPiTaRdA ImageProcessing gidrapitarda imageprocessing</tags>

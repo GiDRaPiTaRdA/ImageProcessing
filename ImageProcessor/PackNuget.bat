@@ -1,0 +1,1 @@
+cmd /K nuget pack ImageProcessing.nuspec

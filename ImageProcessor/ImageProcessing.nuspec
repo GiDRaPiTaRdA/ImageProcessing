@@ -7,14 +7,16 @@
     <authors>GiDRaPiTaRdA</authors>
     <owners>GiDRaPiTaRdA</owners>
     <projectUrl>https://github.com/GiDRaPiTaRdA/ImageProcessing</projectUrl>
-    <iconUrl>https://secure.gravatar.com/avatar/55d0aebaf44b840a3cef92aaf76ac717?s=100&amp;r=g&amp;d=retro</iconUrl>
+    <icon>icon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This library is created to provide easy api to manage and process image</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Any CPU support</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>GiDRaPiTaRdA ImageProcessing gidrapitarda imageprocessing</tags>
+    <license type="expression">MIT</license>
   </metadata>
   <files>
+    <file src="icon.png" target="" />
     <file src ="bin\Release\ImageProcessing.dll" target="lib"/>
   </files>
 
